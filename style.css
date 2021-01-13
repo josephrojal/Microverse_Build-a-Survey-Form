@@ -1,7 +1,7 @@
 body{
   text-align:center;
   font-family:sans-serif;
-  background-image:linear-gradient(to bottom right, #33adff , #7300e6);
+  background-image:linear-gradient(to bottom right, #5233ff , #2fdba2);
   color:white;
   
 }
@@ -19,9 +19,9 @@ body{
   margin:auto;
   border-radius:10px;
   text-align:left;
-  background-color:rgba(0,0,0,0.6);
+  background-color:rgba(105, 7, 84, 0.6);
   font-size:20px;
-  color:white;
+  color:rgb(168, 163, 163);
   
 }
 
@@ -60,7 +60,7 @@ body{
   border:none;
   margin-top:3%;
   color:white;
-  background-color:green;
+  background-color:rgb(177, 223, 10);
   
 }
 
