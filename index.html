@@ -1,8 +1,19 @@
 <html>
-    <title>
-
+    <title >
+        Responsive Web Design Projects - Build a Survey Form
     </title>
-    <body>
-        <h1>Hello World and we are very happy developers! We are testing new coding.</h1>
+    <body >
+        <h1 id="title">Survey Form</h1>
+        <p id="description">This survey defines teh most popular cars used by the people</p>
+        <form id="survey-form">
+            <p>Name</p>
+            <input id="name" type="text" placeholder="Enter Your Name" required>
+            <p>Email</p>
+            <input id="email" type="email" placeholder="Enter Your Email Address" required>
+
+
+            <input id="submit" type="submit" name="submit" value="Validate" onclick="validateEmail(document.survey-form.email)" />
+            <script src="index.js"></script>
+        </form>
     </body>
 </html>
